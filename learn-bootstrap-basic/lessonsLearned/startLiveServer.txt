@@ -1,0 +1,2 @@
+right click in index.html -> Open with Live Server
+requirement live server extension 
