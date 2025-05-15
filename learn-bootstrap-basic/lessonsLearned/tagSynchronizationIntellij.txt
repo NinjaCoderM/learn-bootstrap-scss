@@ -1,0 +1,1 @@
+IntelliJ, change both corresponding elements together.: focus on element, shift F6
