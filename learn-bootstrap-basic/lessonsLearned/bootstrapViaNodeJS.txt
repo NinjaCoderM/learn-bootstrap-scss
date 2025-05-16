@@ -1,0 +1,3 @@
+open Terminal 
+cd .\learn-bootstrap-basic\
+npm i bootstrap 
