@@ -1,0 +1,11 @@
+$primary: #e67a95;
+$secondary: green;
+
+$heroTitle: #e84118;
+
+.text-heroTitle {
+    --bs-text-opacity: 1;
+    color: rgba($heroTitle, var(--bs-text-opacity)); 
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
