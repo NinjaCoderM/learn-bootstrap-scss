@@ -5,3 +5,7 @@
 .text-primary{
     color: brown !important;
 } */
+
+.row{
+    height: 500px;
+}
