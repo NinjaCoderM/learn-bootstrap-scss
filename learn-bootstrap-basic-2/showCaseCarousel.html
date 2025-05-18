@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Carousel</title>
+  <link rel="stylesheet" href="css/custom.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- 
+  Breakpoints         class         Dimensions
+  Ex Small            ---           < 576px
+  Small               sm            ≥ 576px 
+  Medium              md            ≥ 768px 
+  Large               lg            ≥ 992px 
+  Ex Large            xl            ≥ 1200px 
+  Ex Ex Large         xxl           ≥ 1400px 
+  -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 mt-3">
+        <div class="carousel slide carousel-fade" id="slider" data-bs-ride="carousel" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img class="img-fluid" src="img/banner_01.jpg" alt="">
+              <div class="carousel-caption">
+                <h5>This is First Carousel</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img class="img-fluid" src="img/banner_02.jpg" alt="">
+              <div class="carousel-caption">
+                <h5>This is 2nd Carousel</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img class="img-fluid" src="img/banner_03.jpg" alt="">
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            <button data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="1"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="2"></button>
+          </div>
+          <button class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next"><span
+              class="carousel-control-next-icon" aria-hidden="true"></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-3">
+        <div class="carousel slide carousel-fade" id="slider" data-bs-ride="carousel" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img class="img-fluid" src="img/banner_01.jpg" alt="">
+              <div class="carousel-caption">
+                <h5>This is First Carousel</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img class="img-fluid" src="img/banner_02.jpg" alt="">
+              <div class="carousel-caption">
+                <h5>This is 2nd Carousel</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img class="img-fluid" src="img/banner_03.jpg" alt="">
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            <button data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="1"></button>
+            <button data-bs-target="#slider" data-bs-slide-to="2"></button>
+          </div>
+          <button class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next"><span
+              class="carousel-control-next-icon" aria-hidden="true"></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
