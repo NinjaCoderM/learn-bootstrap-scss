@@ -4,6 +4,7 @@
 .container>.row>table.table-primary.table-striped   -> color primary und jede zweite Zeile leicht eingedunkelt
 .container>.row>table.table-striped-columns         -> jede zweite Spalte leicht eingedunkelt
 .container>.row>table.table-hover                   -> Zeilen werden eingedunkelt, wo sich Maus über der Zeile befindet  
+tr.table-active bei table.table.table-hover         -> Zeile mit table-active wird immer eingedunkelt, ander Zeilen nur mouseOver
 
 
 Wiederholung
