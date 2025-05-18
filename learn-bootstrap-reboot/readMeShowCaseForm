@@ -1,0 +1,22 @@
+.container>.row>.col-md-12.mt-4                                 --> form innerhalb davon erstellen
+.container>.row>.col-md-12.mt-4>form>.form-floating(input + label)  --> Reihenfolge von input und label wichtig, anderes Desing - habe ich nicht verstanden
+form>(div.mb-3>(label+input))+(div.mb-3>(label+input))          --> in divs geben mit Klasse mb-3 für Abstand
+form>(div.mb-3>(label.form-label+input.form-control))           --> form-label für Spacing und form-control für schönere Eingabefelder
+form>(div.mb-3>(label.form-label+textarea.form-control))        --> form-control auch für textarea
+input.form-control[type=email placeHolder='Enter your Email']   --> type and placeholder for input
+input.form-control-sm                                           --> kleines Input Feld, daneben und nicht darunter
+input.form-control.form-control-sm                              --> schmal aber darunter und ganze Breite
+input.form-control-lg                                           --> etwas größer Input Feld, auch daneben
+input.form-control.form-control-lf                              --> etwas breiter aber darunter und ganze Breite
+input.form-control[type=file]                                   --> sehr schöner File Upload Bereich mit Choose File
+input.form-control.form-control-color[type=color]               --> Farbe auswählen, form-control-color ändert Design
+Attribute: disabled, readonly, required
+div>(label + input + div.form-text{*We dont spam})              --> Hinweis Text mit netter Formatierung -> hier passend zu email - wir verwenden persönliche Daten Verantwortungsvoll
+button.btn.btn-primary{Send Message}
+div.mb-3>(label + (select.form-select>(option[value=1]{One})+option))                --> form-select für Design
+div.mb-3>(label + (input.form-control-input[type=checkbox]))                         --> Checkbox type und form-control-input für Design
+div.mb-3>(label + (input.form-control-input[type=checkbox checked]))                 --> vorausgewählt - checkbox checked
+div.mb-3>(label + (input.form-control-input[type=radio]))                            --> runde Checkbox
+div.mb-3.form-check.form-switch>(label + (input.form-check-input[type=checkbox]))    --> aus checkbox eine Switch durch .form-check.form-switch und form-control-input ändern zu form-check-input
+div.mb-3.form-check-form-inline>(label + (input.form-control-input[type=checkbox]) + (input.form-control-input[type=checkbox]) )  --> mehrere Checkboxen in einer Zeile   
+div.mb-3.form-check.form-switch>(label + (input.form-range[type=range min=5 max=10]))--> range mit Schieberegler 

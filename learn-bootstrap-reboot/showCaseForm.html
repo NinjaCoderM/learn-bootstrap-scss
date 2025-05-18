@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Form</title>
+  <link rel="stylesheet" href="css/custom.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- 
+  Breakpoints         class         Dimensions
+  Ex Small            ---           < 576px
+  Small               sm            ≥ 576px 
+  Medium              md            ≥ 768px 
+  Large               lg            ≥ 992px 
+  Ex Large            xl            ≥ 1200px 
+  Ex Ex Large         xxl           ≥ 1400px 
+  -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-4">
+        <div class="com-md-12">
+          <form action="">
+            <div class="form-floating">
+              <input class="form-control form-control" type="text" placeholder="Enter your Full Name">
+              <label for="" class="form-label">Full Name</label>
+            </div>
+          </form>
+        </div>
+        <form action="">
+          <div class="mb-3">
+            <label for="" class="form-label">Full Name</label>
+            <input class="form-control form-control-sm" type="text" placeholder="Enter your Full Name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Email Address</label>
+            <input class="form-control form-control-lg" type="email" placeholder="Enter your Email">
+            <div class="form-text">*We dont spam</div>
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Upload File</label>
+            <input class="form-control" type="file">
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Pick your color</label>
+            <input class="form-control form-control-color" type="color">
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Select</label>
+            <select name="" id="" class="form-select">
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="mb-3 form-check form-check-inline">
+            <input type="checkbox" class="form-control-input">
+            <label for="" class="form-label">Checks</label>
+          </div>
+          <div class="mb-3 form-check form-check-inline">
+            <input type="checkbox" class="form-control-input">
+            <label for="" class="form-label">Checks</label>
+          </div>
+          <div class="mb-3">
+            <input type="radio" class="form-control-input" checked>
+            <label for="" class="form-label">Radio</label>
+          </div>
+          <div class="mb-3 form-check form-switch">
+            <input type="checkbox" class="form-check-input">
+            <label for="" class="form-label">Switch</label>
+          </div>
+          <div class="mb-3 form-check form-switch">
+            <label for="" class="form-label">Range</label>
+            <input type="range" class="form-range" min="5" max="15">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="">Your Message</label>
+            <textarea class="form-control" name="" id="" placeholder="Your Message"></textarea>
+          </div>
+          <button class="btn btn-warning">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
