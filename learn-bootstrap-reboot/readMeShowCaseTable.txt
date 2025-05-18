@@ -9,6 +9,7 @@ tabel.table.table-bordered                          -> Tabelle mit Umrandung, de
 tabel.table.table-bordered.border-danger            -> Color für Border 
 table-borderless                                    -> ohne Border, default Border-Bottom        
 table.table.align-middle                            -> default align-top, daher Text in Zeile wird oben angezeigt, align-middle: Text in Spalte mittig
+.container>.row>.table-responsive>table             -> table-responsive, für große Datenmengen z.B. viel Text
 
 Wiederholung
 .container>.row>.col-md-6                           -> halbe Breite bis kleiner md ganze Breite
