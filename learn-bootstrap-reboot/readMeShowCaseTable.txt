@@ -5,6 +5,8 @@
 .container>.row>table.table-striped-columns         -> jede zweite Spalte leicht eingedunkelt
 .container>.row>table.table-hover                   -> Zeilen werden eingedunkelt, wo sich Maus über der Zeile befindet  
 tr.table-active bei table.table.table-hover         -> Zeile mit table-active wird immer eingedunkelt, ander Zeilen nur mouseOver
+tabel.table.table-bordered                          -> Tabelle mit Umrandung, default ist nur unten ein Strich -> deutlich sichtbar ohne color
+tabel.table.table-bordered.border-danger            -> Color für Border 
 
 
 Wiederholung
