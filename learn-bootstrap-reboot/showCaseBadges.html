@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Badges</title>
+  <link rel="stylesheet" href="css/custom.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- 
+  Breakpoints         class         Dimensions
+  Ex Small            ---           < 576px
+  Small               sm            ≥ 576px 
+  Medium              md            ≥ 768px 
+  Large               lg            ≥ 992px 
+  Ex Large            xl            ≥ 1200px 
+  Ex Ex Large         xxl           ≥ 1400px 
+  -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-4">
+        <h1>ALI HOSSAIN <span class="badge text-bg-danger">new</span></h1>
+        <button class="btn btn-primary">Notifications <span class="badge text-bg-secondary">5</span></button>
+        <div class="mt-4">
+
+          <button class="btn btn-primary position-relative">Notifications <span
+              class="badge text-bg-secondary position-absolute top-0 translate-middle start-100">5</span></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
