@@ -8,6 +8,7 @@ tr.table-active bei table.table.table-hover         -> Zeile mit table-active wi
 tabel.table.table-bordered                          -> Tabelle mit Umrandung, default ist nur unten ein Strich -> deutlich sichtbar ohne color
 tabel.table.table-bordered.border-danger            -> Color für Border 
 table-borderless                                    -> ohne Border, default Border-Bottom        
+table.table.align-middle                            -> default align-top, daher Text in Zeile wird oben angezeigt, align-middle: Text in Spalte mittig
 
 Wiederholung
 .container>.row>.col-md-6                           -> halbe Breite bis kleiner md ganze Breite
