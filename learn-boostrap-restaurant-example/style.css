@@ -18,9 +18,16 @@ p{
     line-height: 1.5em;    
 }
 
-/* .rubik-<uniquifier> {
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#main_menu nav{
+    background: #ebe2d3;
+    font-weight: 500;
+}
+
+#main_menu nav li{
+    margin-left: 15px;
+}
