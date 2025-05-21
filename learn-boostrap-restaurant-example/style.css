@@ -8,10 +8,20 @@ h1, h2{
     line-height: 1em; 
 }
 
+h2{
+    color: #502314;
+    font-size: 60px;
+}
+
 h3, h4, h5, h6{
     font-weight: 700;
     line-height: 1.3em; 
 } 
+
+h6{
+    color: #502314;
+    font-size: 25px;
+}
 
 p{
     font-weight: 400;
@@ -23,6 +33,14 @@ img{
     height: auto;
 }
 
+.btn.btn-info{
+    background-color: #d62300;
+    border: 1px solid #d62300;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 35px; 
+}
+
 #main_menu nav{
     background: #ebe2d3;
     font-weight: 500;
@@ -30,4 +48,12 @@ img{
 
 #main_menu nav li{
     margin-left: 15px;
+}
+
+#slider{
+    padding-top: 85px;    
+}
+
+#about{
+    padding-top: 110px;    
 }
