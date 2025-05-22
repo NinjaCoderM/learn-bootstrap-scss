@@ -18,6 +18,17 @@ h3, h4, h5, h6{
     line-height: 1.3em; 
 } 
 
+h3{
+    color: #502314;
+    font-size: 25px;
+}
+
+h4{
+    color: #502314;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 h6{
     color: #502314;
     font-size: 25px;
@@ -58,7 +69,25 @@ img{
     padding-top: 85px;    
 }
 
-#about, #work, #service{
+#about, #work, #service, #contact{
     padding-top: 110px;    
 }
 
+#contact{
+    background: url(img/map.jpg);
+}
+
+#footer form .btn.btn-info{
+    border-radius: 0;
+}
+
+#footer ul li a{
+    color: #262626;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#footer .social li {
+    display: inline-block;
+    margin-right: 15px;
+}
