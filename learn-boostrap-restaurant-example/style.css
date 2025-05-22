@@ -65,12 +65,17 @@ img{
     margin-left: 15px;
 }
 
+#mainmenu a.active{
+    color:#d62300;
+}
+
 #slider{
     padding-top: 85px;    
 }
 
+
 #about, #work, #service, #contact{
-    padding-top: 110px;    
+    padding-top: 110px;    /* Wichtig! Damit der Kopf bei scrollspy sichtbar ist */
 }
 
 #contact{
