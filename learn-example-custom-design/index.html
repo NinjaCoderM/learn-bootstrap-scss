@@ -19,8 +19,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-<i class="bi bi-wifi-2"></i>
+<body data-bs-spy="scroll" data-bs-target="#main_menu">
+  <div id="home"></div>
+  <nav id="main_menu" class="navbar navbar-expand-md navbar-light sticky-top py-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="mainnav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li><a class="nav-link" href="#main_menu">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="">Work</a></li>
+          <li><a class="nav-link" href="#service">Service</a></li>
+          <li><a class="nav-link" href="#project">Projects</a></li>
+          <li><a class="nav-link" href="#team">Team</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
   <script src="js/bootstrap.min.js"></script>
 </body>
