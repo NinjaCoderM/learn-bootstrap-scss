@@ -22,3 +22,20 @@ h6 {
   font-weight: $font-md;
   margin-bottom: $marginMd;
 }
+.title {
+    font-size: 100px;
+    font-weight: $font-lg;
+}
+.btn-hero {
+    background: $primaryColor;
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &:hover {
+      background: $secColor;
+      color: $blackColor;
+    }
+  }
+  
