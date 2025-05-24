@@ -1,0 +1,39 @@
+#team{
+  padding-top: $paddingLg;
+  .card{
+    &:hover .card-body{
+      width: 100%;
+    }
+  }
+  .card-body{
+    background: $primaryColor;
+    height: 520px;
+    width: 75%;
+    transition: 0.3s;
+  }
+  ul.social{
+    margin: 0 0 250px;
+    padding:  0 20px 0 0;
+    list-style: none;
+    text-align: right;
+    li{
+      margin-bottom: 15px;
+      display: block;
+    }
+    a{
+      color: $blackColor;
+      font-size: 20px;
+      &:hover{
+        color: $lightBg;
+      }
+    }
+  }
+  .card-title{
+    margin: 0 0 5px;
+  }
+  .card-text{
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+  }
+}
