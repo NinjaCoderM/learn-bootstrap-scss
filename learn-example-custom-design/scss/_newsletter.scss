@@ -1,0 +1,17 @@
+#newsletter{
+  background: $secColor;
+  h4{
+    margin: 0;
+    color: #fff;
+  }
+  button{
+    background: #fff;
+    color: $blackColor;
+    border-radius: 0;
+    padding: 15px 60px;
+    &:hover{
+      background: $primaryColor;
+      color: #fff;
+    }
+  }
+}
